@@ -1,0 +1,22 @@
+{
+  "name": "ble-gateway",
+  "version": "1.0.0",
+  "description": "bluetooth gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "bluetooth"
+  ],
+  "author": "lees2bytes",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^20.0.0",
+    "async": "^3.2.0",
+    "bluetooth-hci-socket": "^0.5.1",
+    "crc": "^3.8.0",
+    "noble": "^1.9.1"
+  }
+}

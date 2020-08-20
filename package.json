@@ -15,8 +15,8 @@
   "dependencies": {
     "@hapi/hapi": "^20.0.0",
     "async": "^3.2.0",
-    "bluetooth-hci-socket": "^0.5.1",
+    "@abandonware/bluetooth-hci-socket": "^0.5.3-5",
     "crc": "^3.8.0",
-    "noble": "^1.9.1"
+    "@abandonware/noble": "^1.9.2-3"
   }
 }

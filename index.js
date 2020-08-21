@@ -1,6 +1,6 @@
 "use strict";
 
-var noble = require('noble');
+var noble = require('@abandonware/noble');
 
 const Hapi = require('@hapi/hapi');
 
@@ -136,4 +136,4 @@ function mapPeripherals() {
 /** @description Start server.
  */
 server.start();
-console.log('Starting server...')
+console.log('Server running on %s', server.info.uri);
